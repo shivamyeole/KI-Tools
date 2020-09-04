@@ -1,0 +1,76 @@
+<mat-nav-list >
+    <!-- <div class="profile-card">
+        <div class="header">
+            <h2>Soufiane FADIL</h2>
+            <h4>example@email.com</h4>
+        </div> 
+    </div> -->
+    <div style="padding-left:10px;">
+        <img src="../../../../assets/Atos-Logo-4.png"  width="50px" width="76px" alt="ATOS LOGO">
+    </div>
+    
+
+    <mat-divider></mat-divider>
+
+    <h6 matSubheader>Dashboard</h6>
+
+    <mat-expansion-panel>
+        <mat-expansion-panel-header [routerLink]="['/dashboard']">
+            <mat-icon >insert_chart</mat-icon>
+            <a style="padding:3px 0 0px 10px;" >Dashboard</a>
+            
+        </mat-expansion-panel-header>
+            
+            <mat-nav-list>
+                <a mat-list-item class="abc" [routerLink]="['/dashboard/services']"><mat-icon>arrow_right</mat-icon>Link 1</a>
+                <a mat-list-item class="abc" [routerLink]="['/dashboard/services']"><mat-icon>arrow_right</mat-icon>Link 2</a>
+                <a mat-list-item class="abc" [routerLink]="['/dashboard/services']"><mat-icon>arrow_right</mat-icon>Link 3</a>
+            </mat-nav-list>
+                   
+     </mat-expansion-panel>
+    <br>
+    <mat-divider></mat-divider>
+
+    <h6 matSubheader>Services</h6>
+
+    <mat-expansion-panel>
+        <mat-expansion-panel-header [routerLink]="['/dashboard/services']">
+            <mat-icon >widgets</mat-icon>
+            <a style="padding:3px 0 0px 10px;" >Services</a>
+            
+        </mat-expansion-panel-header>
+            
+            
+                <a mat-list-item [routerLink]="['/dashboard/hpalm']">       <mat-icon>arrow_right</mat-icon>        HPALM</a>
+                <a mat-list-item [routerLink]="['/dashboard/rtc']">         <mat-icon>arrow_right</mat-icon>        RTC</a>
+                <a mat-list-item [routerLink]="['/dashboard/github']">      <mat-icon>arrow_right</mat-icon>        GITHUB</a>
+                <a mat-list-item [routerLink]="['/dashboard/worksmart']">   <mat-icon>arrow_right</mat-icon>        Worksmart</a>
+                <a mat-list-item [routerLink]="['/dashboard/cep']">         <mat-icon>arrow_right</mat-icon>        CEP</a>
+                <a mat-list-item [routerLink]="['/dashboard/sfdb']">        <mat-icon>arrow_right</mat-icon>        SFDB</a>
+                <a mat-list-item [routerLink]="['/dashboard/cleasrcase']">  <mat-icon>arrow_right</mat-icon>        ClearCase</a>
+                <a mat-list-item [routerLink]="['/dashboard/clearquest']">  <mat-icon>arrow_right</mat-icon>        ClearQuest</a>
+                <a mat-list-item [routerLink]="['/dashboard/citrixclient']"><mat-icon>arrow_right</mat-icon>        CitrixClient</a>
+                <a mat-list-item [routerLink]="['/dashboard/appscan']">     <mat-icon>arrow_right</mat-icon>        AppScan</a>
+                <a mat-list-item [routerLink]="['/dashboard/alm-octane']">  <mat-icon>arrow_right</mat-icon>        ALM Octane</a>
+                <a mat-list-item [routerLink]="['/dashboard/servicenow']">  <mat-icon>arrow_right</mat-icon>        ServiceNow</a>
+         
+                   
+     </mat-expansion-panel>
+     <br>
+    <mat-divider></mat-divider> 
+
+    <h2 matSubheader>Others</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['dashboard/services']">Articles</a>
+
+    <!-- <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['dashboard/services']">
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a> -->
+
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['dashboard/team']">
+        <!-- <mat-icon>contact_phone</mat-icon> -->
+        Meet our Team
+    </a>
+
+</mat-nav-list>

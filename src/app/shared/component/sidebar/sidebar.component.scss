@@ -1,0 +1,18 @@
+mat-expansion-panel:not([class*='mat-elevation-z']) {
+    box-shadow: none;
+    font-size: 18px;
+    color: rgb(7, 0, 75);
+}
+
+.mat-list-item{
+   
+    font-size: 15px;
+    color: rgb(148, 148, 148);
+    list-style: square;
+}
+
+.mat-list-item:hover{
+    background-color:white;
+    color:rgb(92, 90, 90); 
+    font-size: 16px;
+}

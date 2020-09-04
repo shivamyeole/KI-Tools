@@ -1,0 +1,59 @@
+<!-- <nav class="navbar navbar-default navbar-fixed-top ">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#myPage"><img src="../assets/Atos-Logo-3.png" height="50px" width="120px" alt=""></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myPage"><b>HOME</b> </a></li>
+          <li><a href="#services"><b> SERVICES</b></a></li>
+          <li><a href="#kisupport"><b> KI SUPPORT</b></a></li>
+          <li><a href="#dashboard"><b> DASHBOARD</b></a></li>
+          <li><a href="#ourteam"><b> OUR TEAM</b></a></li>
+          <li><a href="#contact"><b> CONTACT US</b></a></li>
+  
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+
+
+ <mat-toolbar class="toolbar">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <a  [routerLink]="['']">KI Tools</a>
+    
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+        <ul fxLayout="row" fxLayoutGap="5px">
+          <li>
+            <button mat-icon-button>
+                <mat-icon>settings</mat-icon>
+            </button>
+        </li>
+        <li>
+            <button mat-icon-button>
+                <mat-icon>help_outline</mat-icon>
+            </button>
+        </li>
+        <li>
+            <button mat-button [matMenuTriggerFor]="menu">
+                <mat-icon>person_outline</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item>
+                    <mat-icon>exit_to_app</mat-icon>
+                    Sign out
+                </button>
+            </mat-menu>
+
+        </li>
+        </ul> 
+    </div>       
+  </mat-toolbar>
