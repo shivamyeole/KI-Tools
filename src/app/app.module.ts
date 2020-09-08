@@ -5,7 +5,11 @@ import { AppComponent } from './app.component';
 import { OverviewComponent } from './overview/overview.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import {FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 import { DefaultModule } from './layouts/default/default.module';
+
 
 
 // import { MatButtonModule } from "@angular/material/button";
@@ -21,6 +25,8 @@ import { DefaultModule } from './layouts/default/default.module';
     AppRoutingModule,
     RouterModule,
     BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
     DefaultModule
     // MatButtonModule
   ],

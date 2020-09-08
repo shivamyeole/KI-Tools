@@ -31,12 +31,15 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatMenuModule,
     MatListModule,
     MatExpansionModule
+    
 
   ],
   exports:[
     HeaderComponent,
     FooterComponent,
     SidebarComponent
+
+    
   ]
 })
 export class SharedModule { }

@@ -14,7 +14,7 @@
     margin-bottom: 30px;
     letter-spacing: 2px;
   }  
-  .outer-box-contact, .outer-box-left , .outer-box-right 
+  .outer-box-contact, .outer-box-values , .outer-box-right , .outer-box-left
   {
     background-attachment: fixed;
     background-position: center;
@@ -23,7 +23,7 @@
   }
   .outer-box 
   {
-    background-image: url(../overview/images/Background2.jpg);    
+    background-image: url(../../assets/Background2.jpg);    
     min-height: 100%;    
     // transform: skewY(0deg);
     // transform-origin: left;
@@ -42,7 +42,7 @@
   
   .outer-box-right
   {
-    background-image: url(../overview/images/wallpaper6.jpg);   
+    background-image: url(../../assets/wallpaper6.jpg);   
     min-height: 500px;
     color: #fff;
     padding: 150px 50px;
@@ -55,35 +55,31 @@
   
   // }
   
-  .outer-box-left
+  .outer-box-values
   {
-    background-image: url(../overview/images/wallpaper3.jpg);      
+    background-image: url(../../assets/wallpaper3.jpg);      
     min-height: 500px;
     color: rgb(66, 66, 66);
     padding: 100px 50px;
     font-family: Montserrat, sans-serif;
     box-shadow: 5px 0px 40px rgba(0,0,0, .2); 
   }
-  // .inner-box-left
+  // .inner-box-values
   // {
    
     
   // }
   
-  .outer-box-dashboard
+  .outer-box-left
   {
-    background-image: url(../overview/images/SDLC.png);
-    height: 600px;      
-    background-attachment: fixed;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url(../../assets/wallpaper1.jpg);
+    min-height: 500px;  
     color: #fff;
     font-family: Montserrat, sans-serif;
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   
-  // .inner-box-dashboard
+  // .inner-box-left
   // {
   // //   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   // //  padding: 10px 200px ;
@@ -93,10 +89,10 @@
   
   .outer-box-contact
   {
-    background-image: url(../overview/images/contact.jpg);      
+    background-image: url(../../assets/contact.jpg);      
     min-height: 100%;
     color: #fff;
-    padding: 75px 50px 0px 50px;
+    padding: 75px 0px 0px 0px;
     font-family: Montserrat, sans-serif;
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
     
@@ -257,8 +253,7 @@
     
     border: none;
     border-radius: 0;
-    height: 150px;
-    margin-bottom: 20px;
+    
     
   }
   .thumbnail img {
@@ -469,13 +464,11 @@
     // background-color: rgb(218, 214, 214) !important;
   }
 
-  // .navbar-fixed-top img{
-  //   background : url(../../assets/Atos-Logo-4.png) ;
-  // }
-  
-  // .navbar-fixed-top.scrolled img{
-  //   background : url(../../assets/Atos-Logo-3.png) ;
-  // }
+  .img-2{display: none;}
+
+  .navbar-fixed-top.scrolled .img-2{display: block;}
+
+  .navbar-fixed-top.scrolled .img-1{display: none;}
   
   footer .glyphicon {
     font-size: 20px;

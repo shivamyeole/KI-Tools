@@ -1,5 +1,4 @@
 
-
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -11,13 +10,20 @@ import { ServicesComponent } from './../../features/services/services.component'
 
 import { AllServicesModule } from './../../features/all-services/all-services.module';
 import { SharedModule } from './../../shared/shared.module';
+import { EntireTeamModule } from './../../features/entire-team/entire-team.module';
 import { MatSidenavModule } from '@angular/material/sidenav';
+
+
+import {OrganizationChartModule} from 'primeng/organizationchart';
+import {ToastModule} from 'primeng/toast';
+import {PanelModule} from 'primeng/panel'; 
 
 @NgModule({
   declarations: [
     DefaultComponent,
     DashboardComponent,
     ServicesComponent
+    
   ],
   imports: [
     CommonModule,
@@ -26,7 +32,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
    
     AllServicesModule,
     SharedModule,
-    MatSidenavModule
+    EntireTeamModule,
+    MatSidenavModule,
+
+    OrganizationChartModule,
+    ToastModule,
+    PanelModule
+   
+  ],
+  exports:[
+    OrganizationChartModule,
+    ToastModule,
+    PanelModule
   ]
 })
 export class DefaultModule { }

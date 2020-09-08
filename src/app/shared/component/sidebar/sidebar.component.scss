@@ -4,6 +4,10 @@ mat-expansion-panel:not([class*='mat-elevation-z']) {
     color: rgb(7, 0, 75);
 }
 
+mat-expansion-panel-header{
+    padding: 5px 40px 10px 15px;
+}
+
 .mat-list-item{
    
     font-size: 15px;

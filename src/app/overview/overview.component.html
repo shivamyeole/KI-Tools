@@ -7,7 +7,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#myPage"><img src="../assets/Atos-Logo-4.png" height="50px" width="80px" alt=""></a>
+        <a href="#myPage"><img src="../assets/Atos-Logo-4.png" class="img-1" height="50px" width="100px" alt=""></a>
+        <a href="#myPage"><img src="../assets/Atos-Logo-3.png" class="img-2" height="45px" width="100px" alt=""></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -250,7 +251,7 @@
               <a href="https://mfalm.gsissc.myatos.net/qcbin/start_a.jsp">
                 <button class="btn btn-large" class="explore">Go to Site</button></a>
   
-              <a href="#" [routerLink]="['dashboard/hpalm']">
+              <a href="#" [routerLink]="['services/hpalm']">
                 <button class="btn btn-large" class="explore">Know More</button></a>
             </div>
           </div>
@@ -260,7 +261,7 @@
   
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#" [routerLink]="['dashboard/rtc']">
+          <a href="#" [routerLink]="['services/rtc']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-tasks logo-small"></span>
@@ -292,7 +293,7 @@
               <h3>GITHUB</h3>
               <a href="#mypage" data-toggle="tooltip" data-placement="left" title="Visit Site"><span
                   class="glyphicon glyphicon-arrow-up " style="color: white; font-size: 40px; padding:10px;"></span></a>
-              <a [routerLink]="['dashboard/github']" href="#mypage" data-toggle="tooltip" data-placement="right" title="Know about the tool"><span
+              <a [routerLink]="['services/github']" href="#mypage" data-toggle="tooltip" data-placement="right" title="Know about the tool"><span
                   class="glyphicon glyphicon-plus " style="color: white; font-size: 40px; padding:10px;"></span></a>
             </div>
           </div>
@@ -302,7 +303,7 @@
 
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#" [routerLink]="['dashboard/worksmart']">
+          <a href="#" [routerLink]="['services/worksmart']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-cloud logo-small"></span>
@@ -322,7 +323,7 @@
 
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/cep']">
+          <a href="#mypage" [routerLink]="['services/cep']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-stats logo-small"></span>
@@ -342,7 +343,7 @@
   
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/sfdb']">
+          <a href="#mypage" [routerLink]="['services/sfdb']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-flash logo-small"></span>
@@ -366,7 +367,7 @@
     <div class="row services-main slideanim">
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/clearcase']">
+          <a href="#mypage" [routerLink]="['services/clearcase']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-leaf logo-small"></span>
@@ -386,7 +387,7 @@
 
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/clearquest']">
+          <a href="#mypage" [routerLink]="['services/clearquest']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-certificate logo-small"></span>
@@ -406,7 +407,7 @@
 
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/citrixclient']">
+          <a href="#mypage" [routerLink]="['services/citrixclient']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-wrench logo-small"></span>
@@ -426,7 +427,7 @@
 
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/appscan']">
+          <a href="#mypage" [routerLink]="['services/appscan']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-fire logo-small"></span>
@@ -446,7 +447,7 @@
 
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/alm-octane']">
+          <a href="#mypage" [routerLink]="['services/alm-octane']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-unchecked logo-small"></span>
@@ -466,7 +467,7 @@
 
       <div class="col-lg-2 col-md-4 col-sm-12 ">
         <div class="flip-box" >
-          <a href="#mypage" [routerLink]="['dashboard/servicenow']">
+          <a href="#mypage" [routerLink]="['services/servicenow']">
             <div class="service">
               <div class="service-front">
                 <span class="glyphicon glyphicon-heart logo-small"></span>
@@ -487,11 +488,25 @@
   </div>
   
   
-  <!-- Container (SDLC Section) -->
-  <div class="outer-box-dashboard text-center">
-    <div class="inner-box-dashboard ">
-      <!-- <img src="../assets/SDLC.png" class="img-responsive text-center"  alt=""> -->
-  
+  <!-- Container (Values Section) -->
+  <div class="container-fluid outer-box-values">
+    <div class="row inner-box-values">
+      <div class="col-sm-3 col-sm-offset-1">
+        <span class="glyphicon glyphicon-globe logo slideanim"
+          style="padding-top: 200px;color: white; text-align: center;"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>Our Values</h2><br>
+        <p><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+        <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+      </div>
     </div>
   </div>
   
@@ -509,8 +524,7 @@
   
           <div class="panel-body">
             <h3 class="h3-heading"><strong>PISA Ticket</strong></h3>
-            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Facing an issue in any tools? Raise a PISA ticket and we will assist you.</h5>
             <a href="https://pisa.myatos.net/home"><button class="btn ">Raise a Request</button></a>
           </div>
         </div>
@@ -519,36 +533,8 @@
         <div class="panel panel-default text-center">
   
           <div class="panel-body">
-            <h3 class="h3-heading"><strong>New Project Creation</strong></h3>
-            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-            <a href="https://sp2013.myatos.net/si/operations/tooling/SiteAssets/Tool_NewReq.aspx"><button
-                class="btn ">Check Guidelines</button></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4  col-xs-12 ">
-        <div class="panel panel-default text-center">
-  
-          <div class="panel-body">
-            <h3 class="h3-heading"><strong>Ticket Guidelines</strong></h3>
-            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-            <a href="https://sp2013.myatos.net/si/operations/tooling/SiteAssets/Req_KI_Supp_tool.aspx"><button
-                class="btn ">Check Guidelines</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="row slideanim panel-main">
-      <div class="col-sm-4  col-xs-12 ">
-        <div class="panel panel-default text-center">
-  
-          <div class="panel-body">
             <h3 class="h3-heading"><strong>Access Request Form</strong></h3>
-            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Fill this form and attach it to your PISA Ticket to add or modify user.</h5>
             <a href="../assets/Access_Request_Form.xlsm" download><button class="btn ">Download Form</button></a>
           </div>
         </div>
@@ -558,21 +544,47 @@
   
           <div class="panel-body">
             <h3 class="h3-heading"><strong>Pricing Details</strong></h3>
-            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)"> Understand costing information for all the tools in B&PS</h5>
             <a href="../assets/KI tools_access_and_licenses_for_Atos_customers.pptx" download><button class="btn ">Check
                 Price</button></a>
           </div>
         </div>
       </div>
+
+    </div>
+  
+    <div class="row slideanim panel-main">
+      <div class="col-sm-4  col-xs-12 ">
+        <div class="panel panel-default text-center">
+  
+          <div class="panel-body">
+            <h3 class="h3-heading"><strong>Ticket Guidelines</strong></h3>
+            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do. </h5>
+            <a [routerLink]="['/KI_Support/Ticket_Guidelines']"><button
+                class="btn ">Check Guidelines</button></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-4  col-xs-12 ">
+        <div class="panel panel-default text-center">
+  
+          <div class="panel-body">
+            <h3 class="h3-heading"><strong>New Project Creation</strong></h3>
+            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.</h5>
+            <a [routerLink]="['/KI_Support/New_Project_Creation']"><button
+                class="btn ">Check Guidelines</button></a>
+          </div>
+        </div>
+      </div>
+      
       <div class="col-sm-4  col-xs-12 ">
         <div class="panel panel-default text-center">
   
           <div class="panel-body">
             <h3 class="h3-heading"><strong>KI SLA Overiew</strong></h3>
-            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-            <a href="https://sp2013.myatos.net/si/operations/tooling/SitePages/KI_SLAPage.aspx"><button class="btn ">SLA
+            <h5 style="padding:10px 0px; color:rgb(98, 98, 98)">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do .</h5>
+            <a [routerLink]="['/KI_Support/KI_SLA']"><button class="btn ">SLA
                 Targets </button></a>
           </div>
         </div>
@@ -587,11 +599,12 @@
   <div class="container-fluid outer-box-left">
     <div class="row inner-box-left">
       <div class="col-sm-3 col-sm-offset-1">
-        <span class="glyphicon glyphicon-globe logo slideanim"
-          style="padding-top: 200px;color: white; text-align: center;"></span>
+        <!-- <span class="glyphicon glyphicon-globe logo slideanim"
+          style="padding-top: 200px;color: white; text-align: center;">
+        </span> -->
       </div>
       <div class="col-sm-8">
-        <h2>Our Values</h2><br>
+        <!-- <h2>Our Values</h2><br>
         <p><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
           laboris nisi ut aliquip ex ea commodo consequat.</p><br>
@@ -600,7 +613,7 @@
           laboris nisi ut aliquip ex ea commodo consequat.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
+          consequat.</p> -->
       </div>
     </div>
   </div>
@@ -625,43 +638,43 @@
       </div>
     </div>
   
-    <div class="row" style="padding: 20px 100px 50px 100px;">
-      <div class="col-md-3">
+    <div class="row" style="padding: 20px 0px 20px 0px; margin-left: 10%; margin-right: 10%;">
+      <div class="col-md-3 col-12">
         <div class="thumbnail slideanim">
           <a href="https://sp2013.myatos.net/si/operations/tooling/SSC/SSC%20Management%20Reports/Forms/AllItems.aspx">
             <img src="../assets/dashboard1.jpg" class="img-responsive img-rounded" alt="Lights" style="width:100%">
-            <button class="btn btn-default btn-lg" style="background-color: #2263A4; color: white; width:100%">Management
+            <button class="btn " style="background-color: #2263A4; color: white; padding: 10px; margin-bottom: 10px; width:100%">Management
               Reports</button>
   
           </a>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-12">
         <div class="thumbnail slideanim">
-          <a href="https://sp2013.myatos.net/si/operations/tooling/SiteAssets/site_availability.aspx">
-            <img src="../assets/dashboard2.png" class="img-responsive img-rounded" alt="Nature" style="width:100%">
-            <button class="btn btn-default btn-lg" style="background-color: #2263A4; color: white; width:100%">Site
+          <a [routerLink]="['/dashboard/Site_Availability']">
+            <img src="../assets/dashboard2.png" class="img-responsive img-rounded" alt="Nature" style="width:100%; margin-bottom: 30px;">
+            <button class="btn " style="background-color: #2263A4; color: white; padding: 10px; margin-bottom: 10px; width:100%">Site
               Availability</button>
   
           </a>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-12">
         <div class="thumbnail slideanim">
-          <a href="https://sp2013.myatos.net/si/operations/tooling/SiteAssets/KI_measurement.aspx">
-            <img src="../assets/dashboard3.jpg" class="img-responsive img-rounded" alt="Fjords" style="width:100%">
-            <button class="btn btn-default btn-lg" style="background-color: #2263A4; color: white; width:100%">KI
+          <a [routerLink]="['/dashboard/KI_Tools_Measurement']">
+            <img src="../assets/dashboard3.jpg" class="img-responsive img-rounded" alt="Fjords" style="width:100%; margin-bottom: 33px;">
+            <button class="btn " style="background-color: #2263A4; color: white; padding: 10px; margin-bottom: 10px; width:100%">KI
               Measurement
               Details</button>
   
           </a>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-12">
         <div class="thumbnail slideanim">
-          <a href="https://sp2013.myatos.net/si/operations/tooling/SiteAssets/customer_feedback.aspx">
-            <img src="../assets/dashboard4.jpg" class="img-responsive img-rounded" alt="Fjords" style="width:100%">
-            <button class="btn btn-default btn-lg" style="background-color: #2263A4; color: white; width:100%">Customer
+          <a [routerLink]="['/dashboard/Customer_Feedback']">
+            <img src="../assets/dashboard4.jpg" class="img-responsive img-rounded" alt="Fjords" style="width:100%;  margin-bottom: 3px;">
+            <button class="btn " style="background-color: #2263A4; color: white;padding: 10px; margin-bottom: 10px; width:100%">Customer
               Feedback
               Details</button>
   
@@ -669,8 +682,10 @@
         </div>
       </div>
     </div>
-  
-    <button [routerLink]="['dashboard']" class="btn btn-default btn-lg">Dashboard Details</button>
+    <div style="margin-left: 10%; margin-right: 10%;"> 
+      <button [routerLink]="['dashboard']" class="btn btn-default btn-lg" >Dashboard Details</button>
+    </div>
+    
   
   </div>
   
@@ -881,7 +896,7 @@
   
   
     <div class="text-center">
-      <button class="btn btn-lg teambtn">Meet Entire KI-Tools Team</button>
+      <button class="btn btn-lg teambtn" [routerLink]="['/Entire_Team']">Meet Entire KI-Tools Team</button>
     </div>
   
   </div>
@@ -893,7 +908,7 @@
     <div class="inner-box-contact ">
   
       <h2 class="text-center">CONTACT US</h2>
-      <div class="row" style="padding: 10px 100px 0px 100px;">
+      <div class="row" style="padding: 10px 0px 0px 0px; margin-left: 10%; margin-right: 10%;">
         <div class="col-sm-4 col-sm-12">
           <h4>Follow us on Circuit Spaces</h4>
           <ul class="circuit">
@@ -945,9 +960,9 @@
         </div>
       </div>
   
-      <h3 style="padding: 0px 100px;">B&PS Global Sites</h3>
-      <div class="row" style="padding: 0px 100px;">
-  
+      <!-- <h3 >B&PS Global Sites</h3> -->
+      <div class="row" style=" margin-left: 10%; margin-right: 10%;">
+        
         <div class="col-sm-4">
           <ul class="circuit">
             <li class="circuit-list"><a href="https://sp2013.myatos.net/si/Pages/HomePage.aspx">Atos B&PS</a></li>
@@ -973,7 +988,7 @@
             <li class="circuit-list"><a href="#">Lorem ipsum dolor sit amet</a></li>
             <li class="circuit-list"><a href="#">Lorem ipsum dolor sit amet</a></li>
             <li class="circuit-list"><a href="#">Lorem ipsum dolor sit amet</a></li>
-            <li class="circuit-list"><a href="#">Lorem ipsum dolor sit amet</a></li>
+           <li class="circuit-list"><a href="#">Lorem ipsum dolor sit amet</a></li>
             <li class="circuit-list"><a href="#">Lorem ipsum dolor sit amet</a></li>
           </ul>
         </div>
