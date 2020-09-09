@@ -24,14 +24,14 @@ export class EntireTeamComponent {
             type: 'person',
             styleClass: 'ui-person',
             expanded: true,
-            data: {name:'Walter White', 'avatar': 'walter.jpg'},
+            data: {name:'Head of Global B&Ps KI Tools (SSC)'},
             children: [
                 {
                     label: 'Jerome Galliere',
                     type: 'person',
                     styleClass: 'ui-person',
                     expanded: true,
-                    data: {name:'Saul Goodman', 'avatar': 'saul.jpg'},
+                    data: {name:'Global B&PS KI Tools (SSC) Business Owner'},
                     // children:[{
                     //     label: 'Tax',
                     //     styleClass: 'department-cfo'
@@ -46,7 +46,7 @@ export class EntireTeamComponent {
                     type: 'person',
                     styleClass: 'ui-person',
                     expanded: true,
-                    data: {name:'Mike E.', 'avatar': 'mike.jpg'},
+                    data: {name:'Global B&PS KI Tools (SSC) Business Owner'},
                     // children:[{
                     //     label: 'Operations',
                     //     styleClass: 'department-coo'
@@ -58,39 +58,39 @@ export class EntireTeamComponent {
                     type: 'person',
                     styleClass: 'ui-person',
                     expanded: true,
-                    data: {name:'Jesse Pinkman', 'avatar': 'jesse.jpg'},
-                    children:[{
-                        label: 'Development',
-                        styleClass: 'department-cto',
-                        expanded: true,
-                        children:[{
-                            label: 'Analysis',
-                            styleClass: 'department-cto'
-                        },
-                        {
-                            label: 'Front End',
-                            styleClass: 'department-cto'
-                        },
-                        {
-                            label: 'Back End',
-                            styleClass: 'department-cto'
-                        }]
-                    },
-                    {
-                        label: 'QA',
-                        styleClass: 'department-cto'
-                    },
-                    {
-                        label: 'R&D',
-                        styleClass: 'department-cto'
-                    }]
+                    data: {name:'Manager KI Tools (SSC)'},
+                    // children:[{
+                    //     label: 'Development',
+                    //     styleClass: 'department-cto',
+                    //     expanded: true,
+                    //     children:[{
+                    //         label: 'Analysis',
+                    //         styleClass: 'department-cto'
+                    //     },
+                    //     {
+                    //         label: 'Front End',
+                    //         styleClass: 'department-cto'
+                    //     },
+                    //     {
+                    //         label: 'Back End',
+                    //         styleClass: 'department-cto'
+                    //     }]
+                    // },
+                    // {
+                    //     label: 'QA',
+                    //     styleClass: 'department-cto'
+                    // },
+                    // {
+                    //     label: 'R&D',
+                    //     styleClass: 'department-cto'
+                    // }]
                 },
                 {
                     label: 'Tjakko Tjakkes',
                     type: 'person',
                     styleClass: 'ui-person',
                     expanded: true,
-                    data: {name:'Mike E.', 'avatar': 'mike.jpg'},
+                    data: {name:'Global B&PS KI Tools (SSC) Business Owner'},
                     // children:[{
                     //     label: 'Operations',
                     //     styleClass: 'department-coo'
@@ -101,7 +101,7 @@ export class EntireTeamComponent {
                     type: 'person',
                     styleClass: 'ui-person',
                     expanded: true,
-                    data: {name:'Mike E.', 'avatar': 'mike.jpg'},
+                    data: {name:'B&PS KI Tools PMO'},
                     // children:[{
                     //     label: 'Operations',
                     //     styleClass: 'department-coo'
