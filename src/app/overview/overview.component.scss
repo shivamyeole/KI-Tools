@@ -556,9 +556,23 @@
     position: fixed;
     right: 10px;
     bottom: 10px;
-    
+
     color: white;
   }
+
+  .go-to-top span{
+    background-color:rgba(5, 14, 92, 0.7);
+    font-size: 20px; 
+    padding: 15px; 
+    border-radius: 50%;
+  }
+
+  .go-to-top:hover{
+    background-color:rgb(5, 14, 92);
+    
+    border-radius: 50%;
+  }
+ 
   
   /* Dropup Button */
   .dropbtn {
@@ -567,8 +581,8 @@
   // padding: 16px;
   // font-size: 16px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   }
   
   /* The container <div> - needed to position the dropup content */
@@ -617,5 +631,5 @@
   
   /* Change the background color of the dropup button when the dropup content is shown */
   .dropup:hover .dropbtn {
-  background-color: #2980B9;
+  
   }

@@ -10,7 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { DefaultModule } from './layouts/default/default.module';
 
-
+import { MatIconModule } from '@angular/material/icon';
 
 // import { MatButtonModule } from "@angular/material/button";
 
@@ -27,7 +27,8 @@ import { DefaultModule } from './layouts/default/default.module';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    DefaultModule
+    DefaultModule,
+    MatIconModule
     // MatButtonModule
   ],
   providers: [],
