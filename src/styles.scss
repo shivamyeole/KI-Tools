@@ -9,6 +9,8 @@ body
       line-height: 1.8;
       color: #818181;
       background-color: rgba($color: #ffffff, $alpha: 1);
+      max-width: 100%;
+      
     }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
