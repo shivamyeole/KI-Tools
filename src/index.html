@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  
-  <title>KI-SSC_Home</title>
+  <title>KI_SSC_Home</title>
   <base href="/angular">
 
   <meta charset="utf-8">
@@ -64,10 +64,10 @@
       $(window).scroll(function() {
         $(".slideanim").each(function(){
           var pos = $(this).offset().top;
-    
           var winTop = $(window).scrollTop();
-          console.log('winTop')
-            if (pos < winTop + 450) {
+          var x = 70*($(window).height())/100;
+          
+            if (pos < winTop + x) {
               $(this).addClass("slider");
             }
         });
